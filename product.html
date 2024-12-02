@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The CoffeeHub</title>
+    <style>
+      .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 25px;
+      height: 500px;
+      width: 600px;
+      margin-left: 460px;
+      margin-top: 65px;
+    }
+
+    .grid-item img {
+      width: 100%;
+      height: auto;
+    }
+
+    .grid-item:hover {
+      transform: translateY(-10px);
+      transition: all 1s ease;
+      border: 3px solid #fff;
+     }
+
+        </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-bar">
+        <h1 style="margin-top: 1px;"class="title">The <span>CoffeeHub</span></h1>
+        <p>Coffee Shop</p>
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./product.html">Product</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-item"><a href="desc1.html"><img src="latte.jpg" alt="Mountains"></a>
+          <br>
+          <span style="font-size: 20px;">Latte</span></div>
+        <div class="grid-item"><a href="desc2.html"><img src="cm.jpg" alt="Mountains"></a>
+          <br>
+          <span style="font-size: 20px;">Caffe Macchiato</span></div>
+        <div class="grid-item"><a href="desc3.html"><img src="caffe.jpg" alt="Mountains"></a>
+          <br>
+          <span style="font-size: 20px;">Caffe Mocha</span></div>
+        <div class="grid-item"><a href="desc4.html"><img src="iced.jpg" alt="Mountains"></a>
+          <br>
+          <span style="font-size: 20px;">Iced Coffee</span></div>
+        <div class="grid-item"><a href="desc5.html"><img src="frappe.jpg" alt="Mountains"></a>
+          <br>
+          <span style="font-size: 20px;">Frappuccino</span></div>
+        <div class="grid-item"><a href="desc6.html"><img src="black.jpg" alt="Mountains"></a>
+          <br>
+          <span style="font-size: 20px;">Black Coffee</span></div>
+        <div class="grid-item"><a href="desc7.html"><img src="flat.jpg" alt="Mountains"></a>
+          <br>
+          <span style="font-size: 20px;">Flat White</span></div>
+        <div class="grid-item"><a href="desc8.html"><img src="cap.jpg" alt="Mountains"></a>
+          <br>
+          <span style="font-size: 20px;">Cappuccino</span></div>
+        <div class="grid-item"><a href="desc9.html"><img src="espre.jpg" alt="Mountains"></a>
+          <br>
+          <span style="font-size: 20px;">Espresso</span></div>
+
+          
+      </div>
+    </div>
+  </body>
+</html>

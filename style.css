@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('kopi.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.nav-bar .title {
+    color: #000000;
+    font-size: 67px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+span {
+    color: orange;
+}
+
+.nav-bar p {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 100px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+
+.menu li a:hover {
+    color: orange;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+
+.home {
+    height: 400px;
+    padding: 70px;
+}
+
+.title-1 {
+    font-size: 56px;
+    color: white;
+    font-weight: 600;
+    margin-top: 130px;
+}
+
+.home p {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.home button {
+    height: 40px;
+    color: #fff;
+    background: none;
+    font-size: 22px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    transition: .2s ease;
+    cursor: pointer;
+}
+
+.home button:hover {
+    background: crimson;
+}
